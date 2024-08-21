@@ -24,3 +24,15 @@ $ $KAFKA_HOME/bin/kafka-console-consumer.sh --topic topic1 --from-beginning --bo
 {"str": "value8"}
 {"str": "value9"}
 ```
+### Test2
+#### KAFKA Consumer
+```bash
+$ python src/kchat/kafka/con.py
+```
+```bash
+$ python src/kchat/kafka/pro.py
+```
+##### result
+![image](https://github.com/user-attachments/assets/3a5aca68-8f8d-4a19-a045-ddb55bea3220)
+
+
