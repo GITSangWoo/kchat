@@ -29,10 +29,27 @@ $ $KAFKA_HOME/bin/kafka-console-consumer.sh --topic topic1 --from-beginning --bo
 ```bash
 $ python src/kchat/kafka/con.py
 ```
+#### KAFKA Producer
 ```bash
 $ python src/kchat/kafka/pro.py
 ```
 ##### result
 ![image](https://github.com/user-attachments/assets/3a5aca68-8f8d-4a19-a045-ddb55bea3220)
+
+### chat program
+#### How to use
+
+##### get message
+```
+$ python src/kchat/kafka/cchat.py
+```
+##### send message
+```
+$ python src/kchat/kafka/pchat.py
+```
+![image](https://github.com/user-attachments/assets/c876277a-c90f-4f95-8d77-1dbc6a011d08)
+
+
+
 
 
