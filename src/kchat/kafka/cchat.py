@@ -5,7 +5,7 @@ from datetime import datetime
 
 consumer = KafkaConsumer(
         'chat', 
-        bootstrap_servers=['localhost:9092'],
+        bootstrap_servers=['ec2-15-165-19-52.ap-northeast-2.compute.amazonaws.com:9092'],
         auto_offset_reset='earliest',
         enable_auto_commit = True,
         group_id = 'chat-group',
